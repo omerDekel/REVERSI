@@ -22,11 +22,12 @@ set(SOURCE_FILES src/BasicRules.cpp
         src/IPlayer.cpp
         src/IPlayer.h
         src/IRules.h
+        src/PlayerTypes.cpp
         src/PlayerTypes.h
         src/Point.cpp
         src/Point.h)
 
-set(TEST_FILES tests/JustATest.cpp)
+set(TEST_FILES tests/JustATest.cpp tests/BasicRulesTest.h "tests/ComputerPlayerTest.h" tests/BoardTest.h)
 
 add_executable(ReversyTests ${SOURCE_FILES} ${TEST_FILES} tests/gtest_main.cpp)
 add_executable(Reversy ${SOURCE_FILES} src/Reversy.cpp)

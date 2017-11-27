@@ -45,3 +45,20 @@ bool Board::is_in_board(const Point & point) const
 	
 	return (0 <= point.get_x()) && (get_num_rows() > point.get_x()) && (0 <= point.get_y()) && (get_num_columns() > point.get_y());
 }
+
+unsigned int Board::count_player_cells(const PlayerTypes player_type) const
+{
+	unsigned int count = 0;
+	for (unsigned int i = 0; i < get_num_rows(); i++)
+	{
+		for (unsigned int j = 0; j < get_num_columns(); j++)
+		{
+			if (m_cells[i][j] == player_type)
+			{
+				count++;
+			}
+		}
+	}
+
+	return count;
+}

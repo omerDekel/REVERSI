@@ -13,6 +13,9 @@ Point::Point(const int x, const int y) :
 bool operator ==(const Point& first, const Point& second) {
 	return (first.get_x() == second.get_x()) && (first.get_y() == second.get_y());
 }
+bool operator !=(const Point& first, const Point& second) {
+	return (first.get_x() != second.get_x()) || (first.get_y() != second.get_y());
+}
 
 const Point operator +(const Point& first, const Point& second) {
 	Point result = first;

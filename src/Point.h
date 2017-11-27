@@ -43,6 +43,7 @@ private:
 };
 
 bool operator==(const Point& first, const Point& second);
+bool operator!=(const Point& first, const Point& second);
 const Point operator+(const Point& first, const Point& second);
 Point& operator+=(Point& first, const Point& second);
 

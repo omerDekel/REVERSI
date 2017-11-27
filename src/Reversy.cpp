@@ -33,7 +33,7 @@ int main()
 	ConsoleDisplayer displayer;
 	BasicRules rules;
 
-	Game game(o_player, &player_2, &board, &displayer, &rules);
+	Game game(&player_2, o_player, &board, &displayer, &rules);
 
 	game.run();
 

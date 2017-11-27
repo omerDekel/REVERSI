@@ -46,6 +46,12 @@ public:
      * @return return the answer.
      */
 	bool is_in_board(const Point& point) const;
+	/**
+	 * count player cells.
+	 * @param player_type.
+	 * @retuern count the count of the player cells.
+	 */
+	unsigned int count_player_cells(const PlayerTypes player_type) const;
 
 private:
 
