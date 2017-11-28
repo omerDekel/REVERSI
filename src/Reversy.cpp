@@ -1,9 +1,4 @@
-/*
- * Reversy.cpp
- *
- *  Created on: Nov 4, 2017
- *      Author: dana
- */
+
 #include <iostream>
 #include "Game.h"
 #include "ConsolePlayer.h"
@@ -13,8 +8,10 @@
 
 int main()
 {
+    //1 for choosing against computer, 2 for human.
 	int choose;
 	Board board(8);
+    // pointer to IPlayer type (can be computerPlayer or consolePlayer).
 	IPlayer* o_player;
 	std::cout << "Choose your opponent: 1 for computer , 2 for human player";
 	std::cin >> choose;
@@ -28,13 +25,11 @@ int main()
 	}
 	ConsolePlayer player_1(PLAYER_TYPE_O, "Player O");
 	ConsolePlayer player_2(PLAYER_TYPE_X, "Player X");
-	//ComputerPlayer player_1(PLAYER_TYPE_O);
-	//ComputerPlayer player_2(PLAYER_TYPE_X);
 	ConsoleDisplayer displayer;
 	BasicRules rules;
 
 	Game game(&player_2, o_player, &board, &displayer, &rules);
-
+    //running the game .
 	game.run();
 
 	delete o_player;

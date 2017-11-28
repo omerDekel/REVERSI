@@ -610,7 +610,7 @@ gtest/gtest.h
 iostream
 -
 
-/home/omer/CLionProjects/ReversyTests/tests/JustATest.cpp
+/home/omer/CLionProjects/ReversyTests/tests/SomeTests.cpp
 gtest/gtest.h
 /home/omer/CLionProjects/ReversyTests/tests/gtest/gtest.h
 BasicRulesTest.h

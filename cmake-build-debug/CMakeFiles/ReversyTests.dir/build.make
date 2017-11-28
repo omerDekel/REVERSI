@@ -273,28 +273,28 @@ CMakeFiles/ReversyTests.dir/src/Point.cpp.o.provides: CMakeFiles/ReversyTests.di
 CMakeFiles/ReversyTests.dir/src/Point.cpp.o.provides.build: CMakeFiles/ReversyTests.dir/src/Point.cpp.o
 
 
-CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.o: CMakeFiles/ReversyTests.dir/flags.make
-CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.o: ../tests/JustATest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.o -c /home/omer/CLionProjects/ReversyTests/tests/JustATest.cpp
+CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o: CMakeFiles/ReversyTests.dir/flags.make
+CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o: ../tests/SomeTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o -c /home/omer/CLionProjects/ReversyTests/tests/SomeTests.cpp
 
-CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omer/CLionProjects/ReversyTests/tests/JustATest.cpp > CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.i
+CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omer/CLionProjects/ReversyTests/tests/SomeTests.cpp > CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.i
 
-CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omer/CLionProjects/ReversyTests/tests/JustATest.cpp -o CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.s
+CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omer/CLionProjects/ReversyTests/tests/SomeTests.cpp -o CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.s
 
-CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.o.requires:
+CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o.requires:
 
-.PHONY : CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.o.requires
+.PHONY : CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o.requires
 
-CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.o.provides: CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ReversyTests.dir/build.make CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.o.provides.build
-.PHONY : CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.o.provides
+CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o.provides: CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ReversyTests.dir/build.make CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o.provides.build
+.PHONY : CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o.provides
 
-CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.o.provides.build: CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.o
+CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o.provides.build: CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o
 
 
 CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o: CMakeFiles/ReversyTests.dir/flags.make
@@ -332,7 +332,7 @@ ReversyTests_OBJECTS = \
 "CMakeFiles/ReversyTests.dir/src/IPlayer.cpp.o" \
 "CMakeFiles/ReversyTests.dir/src/PlayerTypes.cpp.o" \
 "CMakeFiles/ReversyTests.dir/src/Point.cpp.o" \
-"CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.o" \
+"CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o" \
 "CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o"
 
 # External object files for target ReversyTests
@@ -347,7 +347,7 @@ ReversyTests: CMakeFiles/ReversyTests.dir/src/Game.cpp.o
 ReversyTests: CMakeFiles/ReversyTests.dir/src/IPlayer.cpp.o
 ReversyTests: CMakeFiles/ReversyTests.dir/src/PlayerTypes.cpp.o
 ReversyTests: CMakeFiles/ReversyTests.dir/src/Point.cpp.o
-ReversyTests: CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.o
+ReversyTests: CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o
 ReversyTests: CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o
 ReversyTests: CMakeFiles/ReversyTests.dir/build.make
 ReversyTests: lib/googletest-master/googlemock/gtest/libgtestd.a
@@ -371,7 +371,7 @@ CMakeFiles/ReversyTests.dir/requires: CMakeFiles/ReversyTests.dir/src/Game.cpp.o
 CMakeFiles/ReversyTests.dir/requires: CMakeFiles/ReversyTests.dir/src/IPlayer.cpp.o.requires
 CMakeFiles/ReversyTests.dir/requires: CMakeFiles/ReversyTests.dir/src/PlayerTypes.cpp.o.requires
 CMakeFiles/ReversyTests.dir/requires: CMakeFiles/ReversyTests.dir/src/Point.cpp.o.requires
-CMakeFiles/ReversyTests.dir/requires: CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.o.requires
+CMakeFiles/ReversyTests.dir/requires: CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o.requires
 CMakeFiles/ReversyTests.dir/requires: CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o.requires
 
 .PHONY : CMakeFiles/ReversyTests.dir/requires

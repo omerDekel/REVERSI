@@ -1,6 +1,3 @@
-//
-// Created by omer on 23/11/17.
-//
 
 #ifndef REVERSYTESTS_BASICRULESTEST_H
 #define REVERSYTESTS_BASICRULESTEST_H
@@ -13,6 +10,7 @@ using namespace std;
 class BasicRulesTest: public  testing:: Test {
 public:
     BasicRulesTest() : board(8) , littleBoard(4) {
+        //creating the points vector we expect to get after the test .
         Point p1 = Point(2, 3);
         Point p2 = Point(3,2);
         Point p3 = Point(4,5);
@@ -24,6 +22,7 @@ public:
         vector1.push_back(p4);
         this->points = vector1;
         this->player = PLAYER_TYPE_X;
+        //creating the vectors of points we dont expect to get .
         Point p5 = Point(2,3);
         Point p6 = Point(3,2);
         Point p7 = Point(4,5);
@@ -42,9 +41,6 @@ public:
         this->points3 = vector3;
     };
 protected:
-    //Point p1;
-    //(Point(3,4) ,Point(4,3), Point(5,6),Point(6,5));
-    vector<Point> empty;
     vector<Point> points, points2, points3;
     Board board;
     Board littleBoard;

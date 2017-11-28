@@ -493,7 +493,7 @@
 		<Unit filename="/home/omer/CLionProjects/ReversyTests/tests/ComputerPlayerTest.h">
 			<Option target="ReversyTests"/>
 		</Unit>
-		<Unit filename="/home/omer/CLionProjects/ReversyTests/tests/JustATest.cpp">
+		<Unit filename="/home/omer/CLionProjects/ReversyTests/tests/SomeTests.cpp">
 			<Option target="ReversyTests"/>
 		</Unit>
 		<Unit filename="/home/omer/CLionProjects/ReversyTests/tests/gtest_main.cpp">

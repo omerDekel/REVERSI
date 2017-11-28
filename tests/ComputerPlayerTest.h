@@ -1,7 +1,3 @@
-//
-// Created by omer on 26/11/17.
-//
-
 #ifndef REVERSYTESTS_COMPUTERPLAYER_TEST_H
 #define REVERSYTESTS_COMPUTERPLAYER_TEST_H
 
@@ -13,16 +9,13 @@
 using namespace std;
 class ComputerPlayerTest : public testing:: Test {
 public:
-ComputerPlayerTest() :notBestMove(Point(2,4)), bestMove(Point(2,2)) , before(8), after(8){
-    after.set_cell(Point(2,1), PLAYER_TYPE_X);
-    after.set_cell(Point(2,2), PLAYER_TYPE_X);
-    after.set_cell(Point(2,3),PLAYER_TYPE_X);
+ComputerPlayerTest() :notBestMove(Point(2,4)), bestMove(Point(2,2)){
 
 }
 protected:
+    // the point we dont expect to get in the test on get move from the ComputerPlayer .
     Point notBestMove;
+    // the point we expect to get in the test on get move from the ComputerPlayer .
     Point bestMove;
-    Board before;
-    Board after;
 };
 #endif //REVERSYTESTS_COMPUTERPLAYER_TEST_H

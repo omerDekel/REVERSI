@@ -531,32 +531,32 @@ src/Reversy.cpp.s:
 	$(MAKE) -f CMakeFiles/Reversy.dir/build.make CMakeFiles/Reversy.dir/src/Reversy.cpp.s
 .PHONY : src/Reversy.cpp.s
 
-tests/JustATest.o: tests/JustATest.cpp.o
+tests/SomeTests.o: tests/SomeTests.cpp.o
 
-.PHONY : tests/JustATest.o
+.PHONY : tests/SomeTests.o
 
 # target to build an object file
-tests/JustATest.cpp.o:
-	$(MAKE) -f CMakeFiles/ReversyTests.dir/build.make CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.o
-.PHONY : tests/JustATest.cpp.o
+tests/SomeTests.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversyTests.dir/build.make CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o
+.PHONY : tests/SomeTests.cpp.o
 
-tests/JustATest.i: tests/JustATest.cpp.i
+tests/SomeTests.i: tests/SomeTests.cpp.i
 
-.PHONY : tests/JustATest.i
+.PHONY : tests/SomeTests.i
 
 # target to preprocess a source file
-tests/JustATest.cpp.i:
-	$(MAKE) -f CMakeFiles/ReversyTests.dir/build.make CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.i
-.PHONY : tests/JustATest.cpp.i
+tests/SomeTests.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversyTests.dir/build.make CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.i
+.PHONY : tests/SomeTests.cpp.i
 
-tests/JustATest.s: tests/JustATest.cpp.s
+tests/SomeTests.s: tests/SomeTests.cpp.s
 
-.PHONY : tests/JustATest.s
+.PHONY : tests/SomeTests.s
 
 # target to generate assembly for a file
-tests/JustATest.cpp.s:
-	$(MAKE) -f CMakeFiles/ReversyTests.dir/build.make CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.s
-.PHONY : tests/JustATest.cpp.s
+tests/SomeTests.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversyTests.dir/build.make CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.s
+.PHONY : tests/SomeTests.cpp.s
 
 tests/gtest_main.o: tests/gtest_main.cpp.o
 
@@ -633,9 +633,9 @@ help:
 	@echo "... src/Reversy.o"
 	@echo "... src/Reversy.i"
 	@echo "... src/Reversy.s"
-	@echo "... tests/JustATest.o"
-	@echo "... tests/JustATest.i"
-	@echo "... tests/JustATest.s"
+	@echo "... tests/SomeTests.o"
+	@echo "... tests/SomeTests.i"
+	@echo "... tests/SomeTests.s"
 	@echo "... tests/gtest_main.o"
 	@echo "... tests/gtest_main.i"
 	@echo "... tests/gtest_main.s"

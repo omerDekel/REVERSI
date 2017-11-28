@@ -1,3 +1,4 @@
+
 #include "Board.h"
 
 Board::Board(const unsigned int size)

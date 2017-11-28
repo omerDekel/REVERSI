@@ -1,3 +1,4 @@
+
 #ifndef CONSOLEDISPLAYER_H_
 #define CONSOLEDISPLAYER_H_
 

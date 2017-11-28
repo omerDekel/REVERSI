@@ -13,7 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/omer/CLionProjects/ReversyTests/src/IPlayer.cpp" "/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles/ReversyTests.dir/src/IPlayer.cpp.o"
   "/home/omer/CLionProjects/ReversyTests/src/PlayerTypes.cpp" "/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles/ReversyTests.dir/src/PlayerTypes.cpp.o"
   "/home/omer/CLionProjects/ReversyTests/src/Point.cpp" "/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles/ReversyTests.dir/src/Point.cpp.o"
-  "/home/omer/CLionProjects/ReversyTests/tests/JustATest.cpp" "/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.o"
+  "/home/omer/CLionProjects/ReversyTests/tests/SomeTests.cpp" "/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o"
   "/home/omer/CLionProjects/ReversyTests/tests/gtest_main.cpp" "/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

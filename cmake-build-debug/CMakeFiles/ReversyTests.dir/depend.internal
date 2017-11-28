@@ -58,7 +58,7 @@ CMakeFiles/ReversyTests.dir/src/PlayerTypes.cpp.o
 CMakeFiles/ReversyTests.dir/src/Point.cpp.o
  /home/omer/CLionProjects/ReversyTests/src/Point.cpp
  /home/omer/CLionProjects/ReversyTests/src/Point.h
-CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.o
+CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o
  ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
  ../lib/googletest-master/googletest/include/gtest/gtest-message.h
  ../lib/googletest-master/googletest/include/gtest/gtest-param-test.h
@@ -91,7 +91,7 @@ CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.o
  /home/omer/CLionProjects/ReversyTests/tests/BasicRulesTest.h
  /home/omer/CLionProjects/ReversyTests/tests/BoardTest.h
  /home/omer/CLionProjects/ReversyTests/tests/ComputerPlayerTest.h
- /home/omer/CLionProjects/ReversyTests/tests/JustATest.cpp
+ /home/omer/CLionProjects/ReversyTests/tests/SomeTests.cpp
 CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o
  ../lib/googletest-master/googlemock/include/gmock/gmock-actions.h
  ../lib/googletest-master/googlemock/include/gmock/gmock-cardinalities.h

@@ -1,7 +1,3 @@
-//
-// Created by omer on 26/11/17.
-//
-
 #ifndef REVERSYTESTS_BOARDTEST_H
 #define REVERSYTESTS_BOARDTEST_H
 #include "gtest/gtest.h"
@@ -16,7 +12,7 @@ public:
     }
 
 protected:
+    // the numbers of the black player and white player we expect to get int the test.
     int counterBlack, counterWhite;
-    Point point;
 };
 #endif //REVERSYTESTS_BOARDTEST_H

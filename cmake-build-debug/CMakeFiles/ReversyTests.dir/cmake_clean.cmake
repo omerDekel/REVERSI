@@ -8,7 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ReversyTests.dir/src/IPlayer.cpp.o"
   "CMakeFiles/ReversyTests.dir/src/PlayerTypes.cpp.o"
   "CMakeFiles/ReversyTests.dir/src/Point.cpp.o"
-  "CMakeFiles/ReversyTests.dir/tests/JustATest.cpp.o"
+  "CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o"
   "CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o"
   "ReversyTests.pdb"
   "ReversyTests"
