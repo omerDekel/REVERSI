@@ -26,6 +26,7 @@ void Game::run()
 				break;
 			}
 			
+			current_player->notify_no_move();
 			last_player_skipped = true;
 			continue;
 		}
@@ -42,6 +43,7 @@ void Game::run()
 		m_rules->make_move(*m_board, point, current_player->get_player_type());
 	}
 
+	m_players[current_player_index]->notify_end();
 	m_displayer->display_game_over(m_rules->get_winner(*m_board));
 	m_displayer->display(*m_board);
 }

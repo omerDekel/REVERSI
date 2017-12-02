@@ -16,17 +16,23 @@ public:
 	 */
 	IPlayer(const PlayerTypes player_type);
 	virtual ~IPlayer() {}
+
 	/**
 	 * getting the player type.
 	 * @return the player type.
 	 */
 	PlayerTypes get_player_type() const { return m_player_type; }
+
 	/**
 	 * getting the move
 	 * @param rules the rules.
 	 * @param board the board.
 	 */
 	virtual Point get_move(const IRules& rules, const Board& board) = 0;
+
+	virtual void notify_no_move() { return; }
+
+	virtual void notify_end() { return; }
 
 private:
 	const PlayerTypes m_player_type;
