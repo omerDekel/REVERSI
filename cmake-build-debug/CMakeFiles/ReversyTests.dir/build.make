@@ -273,9 +273,81 @@ CMakeFiles/ReversyTests.dir/src/Point.cpp.o.provides: CMakeFiles/ReversyTests.di
 CMakeFiles/ReversyTests.dir/src/Point.cpp.o.provides.build: CMakeFiles/ReversyTests.dir/src/Point.cpp.o
 
 
+CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.o: CMakeFiles/ReversyTests.dir/flags.make
+CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.o: ../src/RemoteNetworkPlayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.o -c /home/omer/CLionProjects/ReversyTests/src/RemoteNetworkPlayer.cpp
+
+CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omer/CLionProjects/ReversyTests/src/RemoteNetworkPlayer.cpp > CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.i
+
+CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omer/CLionProjects/ReversyTests/src/RemoteNetworkPlayer.cpp -o CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.s
+
+CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.o.requires:
+
+.PHONY : CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.o.requires
+
+CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.o.provides: CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ReversyTests.dir/build.make CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.o.provides.build
+.PHONY : CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.o.provides
+
+CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.o.provides.build: CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.o
+
+
+CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.o: CMakeFiles/ReversyTests.dir/flags.make
+CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.o: ../src/LocalNetworkPlayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.o -c /home/omer/CLionProjects/ReversyTests/src/LocalNetworkPlayer.cpp
+
+CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omer/CLionProjects/ReversyTests/src/LocalNetworkPlayer.cpp > CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.i
+
+CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omer/CLionProjects/ReversyTests/src/LocalNetworkPlayer.cpp -o CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.s
+
+CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.o.requires:
+
+.PHONY : CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.o.requires
+
+CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.o.provides: CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ReversyTests.dir/build.make CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.o.provides.build
+.PHONY : CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.o.provides
+
+CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.o.provides.build: CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.o
+
+
+CMakeFiles/ReversyTests.dir/src/Socket.cpp.o: CMakeFiles/ReversyTests.dir/flags.make
+CMakeFiles/ReversyTests.dir/src/Socket.cpp.o: ../src/Socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ReversyTests.dir/src/Socket.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ReversyTests.dir/src/Socket.cpp.o -c /home/omer/CLionProjects/ReversyTests/src/Socket.cpp
+
+CMakeFiles/ReversyTests.dir/src/Socket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ReversyTests.dir/src/Socket.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omer/CLionProjects/ReversyTests/src/Socket.cpp > CMakeFiles/ReversyTests.dir/src/Socket.cpp.i
+
+CMakeFiles/ReversyTests.dir/src/Socket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ReversyTests.dir/src/Socket.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omer/CLionProjects/ReversyTests/src/Socket.cpp -o CMakeFiles/ReversyTests.dir/src/Socket.cpp.s
+
+CMakeFiles/ReversyTests.dir/src/Socket.cpp.o.requires:
+
+.PHONY : CMakeFiles/ReversyTests.dir/src/Socket.cpp.o.requires
+
+CMakeFiles/ReversyTests.dir/src/Socket.cpp.o.provides: CMakeFiles/ReversyTests.dir/src/Socket.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ReversyTests.dir/build.make CMakeFiles/ReversyTests.dir/src/Socket.cpp.o.provides.build
+.PHONY : CMakeFiles/ReversyTests.dir/src/Socket.cpp.o.provides
+
+CMakeFiles/ReversyTests.dir/src/Socket.cpp.o.provides.build: CMakeFiles/ReversyTests.dir/src/Socket.cpp.o
+
+
 CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o: CMakeFiles/ReversyTests.dir/flags.make
 CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o: ../tests/SomeTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o -c /home/omer/CLionProjects/ReversyTests/tests/SomeTests.cpp
 
 CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.i: cmake_force
@@ -299,7 +371,7 @@ CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o.provides.build: CMakeFiles/Rev
 
 CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o: CMakeFiles/ReversyTests.dir/flags.make
 CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o: ../tests/gtest_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o -c /home/omer/CLionProjects/ReversyTests/tests/gtest_main.cpp
 
 CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.i: cmake_force
@@ -332,6 +404,9 @@ ReversyTests_OBJECTS = \
 "CMakeFiles/ReversyTests.dir/src/IPlayer.cpp.o" \
 "CMakeFiles/ReversyTests.dir/src/PlayerTypes.cpp.o" \
 "CMakeFiles/ReversyTests.dir/src/Point.cpp.o" \
+"CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.o" \
+"CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.o" \
+"CMakeFiles/ReversyTests.dir/src/Socket.cpp.o" \
 "CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o" \
 "CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o"
 
@@ -347,6 +422,9 @@ ReversyTests: CMakeFiles/ReversyTests.dir/src/Game.cpp.o
 ReversyTests: CMakeFiles/ReversyTests.dir/src/IPlayer.cpp.o
 ReversyTests: CMakeFiles/ReversyTests.dir/src/PlayerTypes.cpp.o
 ReversyTests: CMakeFiles/ReversyTests.dir/src/Point.cpp.o
+ReversyTests: CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.o
+ReversyTests: CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.o
+ReversyTests: CMakeFiles/ReversyTests.dir/src/Socket.cpp.o
 ReversyTests: CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o
 ReversyTests: CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o
 ReversyTests: CMakeFiles/ReversyTests.dir/build.make
@@ -354,7 +432,7 @@ ReversyTests: lib/googletest-master/googlemock/gtest/libgtestd.a
 ReversyTests: lib/googletest-master/googlemock/gtest/libgtest_maind.a
 ReversyTests: lib/googletest-master/googlemock/gtest/libgtestd.a
 ReversyTests: CMakeFiles/ReversyTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable ReversyTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable ReversyTests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ReversyTests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -371,6 +449,9 @@ CMakeFiles/ReversyTests.dir/requires: CMakeFiles/ReversyTests.dir/src/Game.cpp.o
 CMakeFiles/ReversyTests.dir/requires: CMakeFiles/ReversyTests.dir/src/IPlayer.cpp.o.requires
 CMakeFiles/ReversyTests.dir/requires: CMakeFiles/ReversyTests.dir/src/PlayerTypes.cpp.o.requires
 CMakeFiles/ReversyTests.dir/requires: CMakeFiles/ReversyTests.dir/src/Point.cpp.o.requires
+CMakeFiles/ReversyTests.dir/requires: CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.o.requires
+CMakeFiles/ReversyTests.dir/requires: CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.o.requires
+CMakeFiles/ReversyTests.dir/requires: CMakeFiles/ReversyTests.dir/src/Socket.cpp.o.requires
 CMakeFiles/ReversyTests.dir/requires: CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o.requires
 CMakeFiles/ReversyTests.dir/requires: CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o.requires
 

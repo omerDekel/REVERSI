@@ -11,9 +11,12 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/omer/CLionProjects/ReversyTests/src/ConsolePlayer.cpp" "/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles/Reversy.dir/src/ConsolePlayer.cpp.o"
   "/home/omer/CLionProjects/ReversyTests/src/Game.cpp" "/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles/Reversy.dir/src/Game.cpp.o"
   "/home/omer/CLionProjects/ReversyTests/src/IPlayer.cpp" "/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles/Reversy.dir/src/IPlayer.cpp.o"
+  "/home/omer/CLionProjects/ReversyTests/src/LocalNetworkPlayer.cpp" "/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles/Reversy.dir/src/LocalNetworkPlayer.cpp.o"
   "/home/omer/CLionProjects/ReversyTests/src/PlayerTypes.cpp" "/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles/Reversy.dir/src/PlayerTypes.cpp.o"
   "/home/omer/CLionProjects/ReversyTests/src/Point.cpp" "/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles/Reversy.dir/src/Point.cpp.o"
+  "/home/omer/CLionProjects/ReversyTests/src/RemoteNetworkPlayer.cpp" "/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles/Reversy.dir/src/RemoteNetworkPlayer.cpp.o"
   "/home/omer/CLionProjects/ReversyTests/src/Reversy.cpp" "/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles/Reversy.dir/src/Reversy.cpp.o"
+  "/home/omer/CLionProjects/ReversyTests/src/Socket.cpp" "/home/omer/CLionProjects/ReversyTests/cmake-build-debug/CMakeFiles/Reversy.dir/src/Socket.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

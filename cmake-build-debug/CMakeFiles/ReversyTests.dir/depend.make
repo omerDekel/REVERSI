@@ -52,11 +52,33 @@ CMakeFiles/ReversyTests.dir/src/IPlayer.cpp.o: ../src/IRules.h
 CMakeFiles/ReversyTests.dir/src/IPlayer.cpp.o: ../src/PlayerTypes.h
 CMakeFiles/ReversyTests.dir/src/IPlayer.cpp.o: ../src/Point.h
 
+CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.o: ../src/Board.h
+CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.o: ../src/ConsolePlayer.h
+CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.o: ../src/IPlayer.h
+CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.o: ../src/IRules.h
+CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.o: ../src/LocalNetworkPlayer.cpp
+CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.o: ../src/LocalNetworkPlayer.h
+CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.o: ../src/PlayerTypes.h
+CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.o: ../src/Point.h
+CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.o: ../src/Socket.h
+
 CMakeFiles/ReversyTests.dir/src/PlayerTypes.cpp.o: ../src/PlayerTypes.cpp
 CMakeFiles/ReversyTests.dir/src/PlayerTypes.cpp.o: ../src/PlayerTypes.h
 
 CMakeFiles/ReversyTests.dir/src/Point.cpp.o: ../src/Point.cpp
 CMakeFiles/ReversyTests.dir/src/Point.cpp.o: ../src/Point.h
+
+CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.o: ../src/Board.h
+CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.o: ../src/IPlayer.h
+CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.o: ../src/IRules.h
+CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.o: ../src/PlayerTypes.h
+CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.o: ../src/Point.h
+CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.o: ../src/RemoteNetworkPlayer.cpp
+CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.o: ../src/RemoteNetworkPlayer.h
+CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.o: ../src/Socket.h
+
+CMakeFiles/ReversyTests.dir/src/Socket.cpp.o: ../src/Socket.cpp
+CMakeFiles/ReversyTests.dir/src/Socket.cpp.o: ../src/Socket.h
 
 CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o: ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
 CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o: ../lib/googletest-master/googletest/include/gtest/gtest-message.h
@@ -92,23 +114,6 @@ CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o: ../tests/BoardTest.h
 CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o: ../tests/ComputerPlayerTest.h
 CMakeFiles/ReversyTests.dir/tests/SomeTests.cpp.o: ../tests/SomeTests.cpp
 
-CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o: ../lib/googletest-master/googlemock/include/gmock/gmock-actions.h
-CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o: ../lib/googletest-master/googlemock/include/gmock/gmock-cardinalities.h
-CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o: ../lib/googletest-master/googlemock/include/gmock/gmock-generated-actions.h
-CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o: ../lib/googletest-master/googlemock/include/gmock/gmock-generated-function-mockers.h
-CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o: ../lib/googletest-master/googlemock/include/gmock/gmock-generated-matchers.h
-CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o: ../lib/googletest-master/googlemock/include/gmock/gmock-generated-nice-strict.h
-CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o: ../lib/googletest-master/googlemock/include/gmock/gmock-matchers.h
-CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o: ../lib/googletest-master/googlemock/include/gmock/gmock-more-actions.h
-CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o: ../lib/googletest-master/googlemock/include/gmock/gmock-more-matchers.h
-CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o: ../lib/googletest-master/googlemock/include/gmock/gmock-spec-builders.h
-CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o: ../lib/googletest-master/googlemock/include/gmock/gmock.h
-CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o: ../lib/googletest-master/googlemock/include/gmock/internal/custom/gmock-generated-actions.h
-CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o: ../lib/googletest-master/googlemock/include/gmock/internal/custom/gmock-matchers.h
-CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o: ../lib/googletest-master/googlemock/include/gmock/internal/custom/gmock-port.h
-CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o: ../lib/googletest-master/googlemock/include/gmock/internal/gmock-generated-internal-utils.h
-CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o: ../lib/googletest-master/googlemock/include/gmock/internal/gmock-internal-utils.h
-CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o: ../lib/googletest-master/googlemock/include/gmock/internal/gmock-port.h
 CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o: ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
 CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o: ../lib/googletest-master/googletest/include/gtest/gtest-message.h
 CMakeFiles/ReversyTests.dir/tests/gtest_main.cpp.o: ../lib/googletest-master/googletest/include/gtest/gtest-param-test.h

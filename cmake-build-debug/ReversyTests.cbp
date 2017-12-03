@@ -465,6 +465,14 @@
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
+		<Unit filename="/home/omer/CLionProjects/ReversyTests/src/LocalNetworkPlayer.cpp">
+			<Option target="Reversy"/>
+			<Option target="ReversyTests"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/ReversyTests/src/LocalNetworkPlayer.h">
+			<Option target="Reversy"/>
+			<Option target="ReversyTests"/>
+		</Unit>
 		<Unit filename="/home/omer/CLionProjects/ReversyTests/src/PlayerTypes.cpp">
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
@@ -481,8 +489,24 @@
 			<Option target="Reversy"/>
 			<Option target="ReversyTests"/>
 		</Unit>
+		<Unit filename="/home/omer/CLionProjects/ReversyTests/src/RemoteNetworkPlayer.cpp">
+			<Option target="Reversy"/>
+			<Option target="ReversyTests"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/ReversyTests/src/RemoteNetworkPlayer.h">
+			<Option target="Reversy"/>
+			<Option target="ReversyTests"/>
+		</Unit>
 		<Unit filename="/home/omer/CLionProjects/ReversyTests/src/Reversy.cpp">
 			<Option target="Reversy"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/ReversyTests/src/Socket.cpp">
+			<Option target="Reversy"/>
+			<Option target="ReversyTests"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/ReversyTests/src/Socket.h">
+			<Option target="Reversy"/>
+			<Option target="ReversyTests"/>
 		</Unit>
 		<Unit filename="/home/omer/CLionProjects/ReversyTests/tests/BasicRulesTest.h">
 			<Option target="ReversyTests"/>

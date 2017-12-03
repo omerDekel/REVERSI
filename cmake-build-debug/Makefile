@@ -444,6 +444,36 @@ src/IPlayer.cpp.s:
 	$(MAKE) -f CMakeFiles/ReversyTests.dir/build.make CMakeFiles/ReversyTests.dir/src/IPlayer.cpp.s
 .PHONY : src/IPlayer.cpp.s
 
+src/LocalNetworkPlayer.o: src/LocalNetworkPlayer.cpp.o
+
+.PHONY : src/LocalNetworkPlayer.o
+
+# target to build an object file
+src/LocalNetworkPlayer.cpp.o:
+	$(MAKE) -f CMakeFiles/Reversy.dir/build.make CMakeFiles/Reversy.dir/src/LocalNetworkPlayer.cpp.o
+	$(MAKE) -f CMakeFiles/ReversyTests.dir/build.make CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.o
+.PHONY : src/LocalNetworkPlayer.cpp.o
+
+src/LocalNetworkPlayer.i: src/LocalNetworkPlayer.cpp.i
+
+.PHONY : src/LocalNetworkPlayer.i
+
+# target to preprocess a source file
+src/LocalNetworkPlayer.cpp.i:
+	$(MAKE) -f CMakeFiles/Reversy.dir/build.make CMakeFiles/Reversy.dir/src/LocalNetworkPlayer.cpp.i
+	$(MAKE) -f CMakeFiles/ReversyTests.dir/build.make CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.i
+.PHONY : src/LocalNetworkPlayer.cpp.i
+
+src/LocalNetworkPlayer.s: src/LocalNetworkPlayer.cpp.s
+
+.PHONY : src/LocalNetworkPlayer.s
+
+# target to generate assembly for a file
+src/LocalNetworkPlayer.cpp.s:
+	$(MAKE) -f CMakeFiles/Reversy.dir/build.make CMakeFiles/Reversy.dir/src/LocalNetworkPlayer.cpp.s
+	$(MAKE) -f CMakeFiles/ReversyTests.dir/build.make CMakeFiles/ReversyTests.dir/src/LocalNetworkPlayer.cpp.s
+.PHONY : src/LocalNetworkPlayer.cpp.s
+
 src/PlayerTypes.o: src/PlayerTypes.cpp.o
 
 .PHONY : src/PlayerTypes.o
@@ -504,6 +534,36 @@ src/Point.cpp.s:
 	$(MAKE) -f CMakeFiles/ReversyTests.dir/build.make CMakeFiles/ReversyTests.dir/src/Point.cpp.s
 .PHONY : src/Point.cpp.s
 
+src/RemoteNetworkPlayer.o: src/RemoteNetworkPlayer.cpp.o
+
+.PHONY : src/RemoteNetworkPlayer.o
+
+# target to build an object file
+src/RemoteNetworkPlayer.cpp.o:
+	$(MAKE) -f CMakeFiles/Reversy.dir/build.make CMakeFiles/Reversy.dir/src/RemoteNetworkPlayer.cpp.o
+	$(MAKE) -f CMakeFiles/ReversyTests.dir/build.make CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.o
+.PHONY : src/RemoteNetworkPlayer.cpp.o
+
+src/RemoteNetworkPlayer.i: src/RemoteNetworkPlayer.cpp.i
+
+.PHONY : src/RemoteNetworkPlayer.i
+
+# target to preprocess a source file
+src/RemoteNetworkPlayer.cpp.i:
+	$(MAKE) -f CMakeFiles/Reversy.dir/build.make CMakeFiles/Reversy.dir/src/RemoteNetworkPlayer.cpp.i
+	$(MAKE) -f CMakeFiles/ReversyTests.dir/build.make CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.i
+.PHONY : src/RemoteNetworkPlayer.cpp.i
+
+src/RemoteNetworkPlayer.s: src/RemoteNetworkPlayer.cpp.s
+
+.PHONY : src/RemoteNetworkPlayer.s
+
+# target to generate assembly for a file
+src/RemoteNetworkPlayer.cpp.s:
+	$(MAKE) -f CMakeFiles/Reversy.dir/build.make CMakeFiles/Reversy.dir/src/RemoteNetworkPlayer.cpp.s
+	$(MAKE) -f CMakeFiles/ReversyTests.dir/build.make CMakeFiles/ReversyTests.dir/src/RemoteNetworkPlayer.cpp.s
+.PHONY : src/RemoteNetworkPlayer.cpp.s
+
 src/Reversy.o: src/Reversy.cpp.o
 
 .PHONY : src/Reversy.o
@@ -530,6 +590,36 @@ src/Reversy.s: src/Reversy.cpp.s
 src/Reversy.cpp.s:
 	$(MAKE) -f CMakeFiles/Reversy.dir/build.make CMakeFiles/Reversy.dir/src/Reversy.cpp.s
 .PHONY : src/Reversy.cpp.s
+
+src/Socket.o: src/Socket.cpp.o
+
+.PHONY : src/Socket.o
+
+# target to build an object file
+src/Socket.cpp.o:
+	$(MAKE) -f CMakeFiles/Reversy.dir/build.make CMakeFiles/Reversy.dir/src/Socket.cpp.o
+	$(MAKE) -f CMakeFiles/ReversyTests.dir/build.make CMakeFiles/ReversyTests.dir/src/Socket.cpp.o
+.PHONY : src/Socket.cpp.o
+
+src/Socket.i: src/Socket.cpp.i
+
+.PHONY : src/Socket.i
+
+# target to preprocess a source file
+src/Socket.cpp.i:
+	$(MAKE) -f CMakeFiles/Reversy.dir/build.make CMakeFiles/Reversy.dir/src/Socket.cpp.i
+	$(MAKE) -f CMakeFiles/ReversyTests.dir/build.make CMakeFiles/ReversyTests.dir/src/Socket.cpp.i
+.PHONY : src/Socket.cpp.i
+
+src/Socket.s: src/Socket.cpp.s
+
+.PHONY : src/Socket.s
+
+# target to generate assembly for a file
+src/Socket.cpp.s:
+	$(MAKE) -f CMakeFiles/Reversy.dir/build.make CMakeFiles/Reversy.dir/src/Socket.cpp.s
+	$(MAKE) -f CMakeFiles/ReversyTests.dir/build.make CMakeFiles/ReversyTests.dir/src/Socket.cpp.s
+.PHONY : src/Socket.cpp.s
 
 tests/SomeTests.o: tests/SomeTests.cpp.o
 
@@ -624,15 +714,24 @@ help:
 	@echo "... src/IPlayer.o"
 	@echo "... src/IPlayer.i"
 	@echo "... src/IPlayer.s"
+	@echo "... src/LocalNetworkPlayer.o"
+	@echo "... src/LocalNetworkPlayer.i"
+	@echo "... src/LocalNetworkPlayer.s"
 	@echo "... src/PlayerTypes.o"
 	@echo "... src/PlayerTypes.i"
 	@echo "... src/PlayerTypes.s"
 	@echo "... src/Point.o"
 	@echo "... src/Point.i"
 	@echo "... src/Point.s"
+	@echo "... src/RemoteNetworkPlayer.o"
+	@echo "... src/RemoteNetworkPlayer.i"
+	@echo "... src/RemoteNetworkPlayer.s"
 	@echo "... src/Reversy.o"
 	@echo "... src/Reversy.i"
 	@echo "... src/Reversy.s"
+	@echo "... src/Socket.o"
+	@echo "... src/Socket.i"
+	@echo "... src/Socket.s"
 	@echo "... tests/SomeTests.o"
 	@echo "... tests/SomeTests.i"
 	@echo "... tests/SomeTests.s"

@@ -9,6 +9,8 @@
 #define REMOTENETWORKPLAYER_H_
 
 #include "IPlayer.h"
+#include "Socket.h"
+
 
 class RemoteNetworkPlayer: public IPlayer {
 public:
