@@ -108,6 +108,22 @@ IRules.h
 Board.h
 /home/omer/CLionProjects/ReversyTests/src/Board.h
 
+/home/omer/CLionProjects/ReversyTests/src/LocalNetworkPlayer.cpp
+unistd.h
+-
+iostream
+-
+LocalNetworkPlayer.h
+/home/omer/CLionProjects/ReversyTests/src/LocalNetworkPlayer.h
+
+/home/omer/CLionProjects/ReversyTests/src/LocalNetworkPlayer.h
+IPlayer.h
+/home/omer/CLionProjects/ReversyTests/src/IPlayer.h
+ConsolePlayer.h
+/home/omer/CLionProjects/ReversyTests/src/ConsolePlayer.h
+Socket.h
+/home/omer/CLionProjects/ReversyTests/src/Socket.h
+
 /home/omer/CLionProjects/ReversyTests/src/PlayerTypes.cpp
 PlayerTypes.h
 /home/omer/CLionProjects/ReversyTests/src/PlayerTypes.h
@@ -119,6 +135,22 @@ Point.h
 /home/omer/CLionProjects/ReversyTests/src/Point.h
 
 /home/omer/CLionProjects/ReversyTests/src/Point.h
+
+/home/omer/CLionProjects/ReversyTests/src/RemoteNetworkPlayer.cpp
+iostream
+-
+unistd.h
+-
+Point.h
+/home/omer/CLionProjects/ReversyTests/src/Point.h
+RemoteNetworkPlayer.h
+/home/omer/CLionProjects/ReversyTests/src/RemoteNetworkPlayer.h
+
+/home/omer/CLionProjects/ReversyTests/src/RemoteNetworkPlayer.h
+IPlayer.h
+/home/omer/CLionProjects/ReversyTests/src/IPlayer.h
+Socket.h
+/home/omer/CLionProjects/ReversyTests/src/Socket.h
 
 /home/omer/CLionProjects/ReversyTests/src/Reversy.cpp
 iostream
@@ -133,4 +165,30 @@ ConsoleDisplayer.h
 /home/omer/CLionProjects/ReversyTests/src/ConsoleDisplayer.h
 BasicRules.h
 /home/omer/CLionProjects/ReversyTests/src/BasicRules.h
+LocalNetworkPlayer.h
+/home/omer/CLionProjects/ReversyTests/src/LocalNetworkPlayer.h
+RemoteNetworkPlayer.h
+/home/omer/CLionProjects/ReversyTests/src/RemoteNetworkPlayer.h
+
+/home/omer/CLionProjects/ReversyTests/src/Socket.cpp
+unistd.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+netdb.h
+-
+strings.h
+-
+cstring
+-
+iostream
+-
+Socket.h
+/home/omer/CLionProjects/ReversyTests/src/Socket.h
+
+/home/omer/CLionProjects/ReversyTests/src/Socket.h
+sys/socket.h
+-
 

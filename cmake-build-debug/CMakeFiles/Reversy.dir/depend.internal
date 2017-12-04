@@ -52,12 +52,31 @@ CMakeFiles/Reversy.dir/src/IPlayer.cpp.o
  /home/omer/CLionProjects/ReversyTests/src/IRules.h
  /home/omer/CLionProjects/ReversyTests/src/PlayerTypes.h
  /home/omer/CLionProjects/ReversyTests/src/Point.h
+CMakeFiles/Reversy.dir/src/LocalNetworkPlayer.cpp.o
+ /home/omer/CLionProjects/ReversyTests/src/Board.h
+ /home/omer/CLionProjects/ReversyTests/src/ConsolePlayer.h
+ /home/omer/CLionProjects/ReversyTests/src/IPlayer.h
+ /home/omer/CLionProjects/ReversyTests/src/IRules.h
+ /home/omer/CLionProjects/ReversyTests/src/LocalNetworkPlayer.cpp
+ /home/omer/CLionProjects/ReversyTests/src/LocalNetworkPlayer.h
+ /home/omer/CLionProjects/ReversyTests/src/PlayerTypes.h
+ /home/omer/CLionProjects/ReversyTests/src/Point.h
+ /home/omer/CLionProjects/ReversyTests/src/Socket.h
 CMakeFiles/Reversy.dir/src/PlayerTypes.cpp.o
  /home/omer/CLionProjects/ReversyTests/src/PlayerTypes.cpp
  /home/omer/CLionProjects/ReversyTests/src/PlayerTypes.h
 CMakeFiles/Reversy.dir/src/Point.cpp.o
  /home/omer/CLionProjects/ReversyTests/src/Point.cpp
  /home/omer/CLionProjects/ReversyTests/src/Point.h
+CMakeFiles/Reversy.dir/src/RemoteNetworkPlayer.cpp.o
+ /home/omer/CLionProjects/ReversyTests/src/Board.h
+ /home/omer/CLionProjects/ReversyTests/src/IPlayer.h
+ /home/omer/CLionProjects/ReversyTests/src/IRules.h
+ /home/omer/CLionProjects/ReversyTests/src/PlayerTypes.h
+ /home/omer/CLionProjects/ReversyTests/src/Point.h
+ /home/omer/CLionProjects/ReversyTests/src/RemoteNetworkPlayer.cpp
+ /home/omer/CLionProjects/ReversyTests/src/RemoteNetworkPlayer.h
+ /home/omer/CLionProjects/ReversyTests/src/Socket.h
 CMakeFiles/Reversy.dir/src/Reversy.cpp.o
  /home/omer/CLionProjects/ReversyTests/src/BasicRules.h
  /home/omer/CLionProjects/ReversyTests/src/Board.h
@@ -68,6 +87,12 @@ CMakeFiles/Reversy.dir/src/Reversy.cpp.o
  /home/omer/CLionProjects/ReversyTests/src/IDisplayer.h
  /home/omer/CLionProjects/ReversyTests/src/IPlayer.h
  /home/omer/CLionProjects/ReversyTests/src/IRules.h
+ /home/omer/CLionProjects/ReversyTests/src/LocalNetworkPlayer.h
  /home/omer/CLionProjects/ReversyTests/src/PlayerTypes.h
  /home/omer/CLionProjects/ReversyTests/src/Point.h
+ /home/omer/CLionProjects/ReversyTests/src/RemoteNetworkPlayer.h
  /home/omer/CLionProjects/ReversyTests/src/Reversy.cpp
+ /home/omer/CLionProjects/ReversyTests/src/Socket.h
+CMakeFiles/Reversy.dir/src/Socket.cpp.o
+ /home/omer/CLionProjects/ReversyTests/src/Socket.cpp
+ /home/omer/CLionProjects/ReversyTests/src/Socket.h

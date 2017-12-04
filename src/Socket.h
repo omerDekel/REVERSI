@@ -28,6 +28,7 @@ public:
 
 private:
 	const int m_socket;
+
 public:
 	const int getM_socket() const;
 };

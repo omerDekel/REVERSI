@@ -52,11 +52,30 @@ CMakeFiles/Reversy.dir/src/IPlayer.cpp.o: ../src/IRules.h
 CMakeFiles/Reversy.dir/src/IPlayer.cpp.o: ../src/PlayerTypes.h
 CMakeFiles/Reversy.dir/src/IPlayer.cpp.o: ../src/Point.h
 
+CMakeFiles/Reversy.dir/src/LocalNetworkPlayer.cpp.o: ../src/Board.h
+CMakeFiles/Reversy.dir/src/LocalNetworkPlayer.cpp.o: ../src/ConsolePlayer.h
+CMakeFiles/Reversy.dir/src/LocalNetworkPlayer.cpp.o: ../src/IPlayer.h
+CMakeFiles/Reversy.dir/src/LocalNetworkPlayer.cpp.o: ../src/IRules.h
+CMakeFiles/Reversy.dir/src/LocalNetworkPlayer.cpp.o: ../src/LocalNetworkPlayer.cpp
+CMakeFiles/Reversy.dir/src/LocalNetworkPlayer.cpp.o: ../src/LocalNetworkPlayer.h
+CMakeFiles/Reversy.dir/src/LocalNetworkPlayer.cpp.o: ../src/PlayerTypes.h
+CMakeFiles/Reversy.dir/src/LocalNetworkPlayer.cpp.o: ../src/Point.h
+CMakeFiles/Reversy.dir/src/LocalNetworkPlayer.cpp.o: ../src/Socket.h
+
 CMakeFiles/Reversy.dir/src/PlayerTypes.cpp.o: ../src/PlayerTypes.cpp
 CMakeFiles/Reversy.dir/src/PlayerTypes.cpp.o: ../src/PlayerTypes.h
 
 CMakeFiles/Reversy.dir/src/Point.cpp.o: ../src/Point.cpp
 CMakeFiles/Reversy.dir/src/Point.cpp.o: ../src/Point.h
+
+CMakeFiles/Reversy.dir/src/RemoteNetworkPlayer.cpp.o: ../src/Board.h
+CMakeFiles/Reversy.dir/src/RemoteNetworkPlayer.cpp.o: ../src/IPlayer.h
+CMakeFiles/Reversy.dir/src/RemoteNetworkPlayer.cpp.o: ../src/IRules.h
+CMakeFiles/Reversy.dir/src/RemoteNetworkPlayer.cpp.o: ../src/PlayerTypes.h
+CMakeFiles/Reversy.dir/src/RemoteNetworkPlayer.cpp.o: ../src/Point.h
+CMakeFiles/Reversy.dir/src/RemoteNetworkPlayer.cpp.o: ../src/RemoteNetworkPlayer.cpp
+CMakeFiles/Reversy.dir/src/RemoteNetworkPlayer.cpp.o: ../src/RemoteNetworkPlayer.h
+CMakeFiles/Reversy.dir/src/RemoteNetworkPlayer.cpp.o: ../src/Socket.h
 
 CMakeFiles/Reversy.dir/src/Reversy.cpp.o: ../src/BasicRules.h
 CMakeFiles/Reversy.dir/src/Reversy.cpp.o: ../src/Board.h
@@ -67,7 +86,13 @@ CMakeFiles/Reversy.dir/src/Reversy.cpp.o: ../src/Game.h
 CMakeFiles/Reversy.dir/src/Reversy.cpp.o: ../src/IDisplayer.h
 CMakeFiles/Reversy.dir/src/Reversy.cpp.o: ../src/IPlayer.h
 CMakeFiles/Reversy.dir/src/Reversy.cpp.o: ../src/IRules.h
+CMakeFiles/Reversy.dir/src/Reversy.cpp.o: ../src/LocalNetworkPlayer.h
 CMakeFiles/Reversy.dir/src/Reversy.cpp.o: ../src/PlayerTypes.h
 CMakeFiles/Reversy.dir/src/Reversy.cpp.o: ../src/Point.h
+CMakeFiles/Reversy.dir/src/Reversy.cpp.o: ../src/RemoteNetworkPlayer.h
 CMakeFiles/Reversy.dir/src/Reversy.cpp.o: ../src/Reversy.cpp
+CMakeFiles/Reversy.dir/src/Reversy.cpp.o: ../src/Socket.h
+
+CMakeFiles/Reversy.dir/src/Socket.cpp.o: ../src/Socket.cpp
+CMakeFiles/Reversy.dir/src/Socket.cpp.o: ../src/Socket.h
 
