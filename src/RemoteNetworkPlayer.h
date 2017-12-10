@@ -1,9 +1,3 @@
-/*
- * RemoteNetworkPlayer.h
- *
- *  Created on: Dec 1, 2017
- *      Author: dana
- */
 
 #ifndef REMOTENETWORKPLAYER_H_
 #define REMOTENETWORKPLAYER_H_

@@ -29,9 +29,13 @@ public:
 	 * @param board the board.
 	 */
 	virtual Point get_move(const IRules& rules, const Board& board) = 0;
-
+	/**
+	 * notify no move
+	 */
 	virtual void notify_no_move() { return; }
-
+	/**
+	 * notify end
+	 */
 	virtual void notify_end() { return; }
 
 private:

@@ -12,25 +12,19 @@
 
 class Socket {
 public:
-	Socket();
-	~Socket();
-	//TODO: delete this
-	Socket(const Socket&);
+    Socket();
 
-	void connectToServer(const char *ip, const unsigned short port);
-	/*void bind(const unsigned long ip, const unsigned short port);
-	void listen(unsigned long backlog);
-	Socket* accept();*/
-
-
-
-
+    ~Socket();
+    /**
+     * connect to server.
+     * @param ip
+     * @param port
+     */
+    void connectToServer(const char *ip , const unsigned short port);
+    const int getM_socket() const;
 
 private:
-	const int m_socket;
-
-public:
-	const int getM_socket() const;
+    const int m_socket;
 };
 
 #endif /* SOCKET_H_ */

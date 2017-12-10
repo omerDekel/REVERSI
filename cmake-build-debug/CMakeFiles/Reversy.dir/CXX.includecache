@@ -155,6 +155,8 @@ Socket.h
 /home/omer/CLionProjects/ReversyTests/src/Reversy.cpp
 iostream
 -
+unistd.h
+-
 Game.h
 /home/omer/CLionProjects/ReversyTests/src/Game.h
 ConsolePlayer.h

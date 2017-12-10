@@ -1,32 +1,25 @@
-/*
- * RemoteNetworkPlayer.cpp
- *
- *  Created on: Dec 1, 2017
- *      Author: dana
- */
 
 #include <iostream>
 #include <unistd.h>
+#include <cstring>
+#include <cstdlib>
 #include "Point.h"
 #include "RemoteNetworkPlayer.h"
+#include <fstream>
 
-RemoteNetworkPlayer::RemoteNetworkPlayer(const PlayerTypes player_type,
-		Socket* socket): IPlayer(player_type), m_socket(socket){
+RemoteNetworkPlayer::RemoteNetworkPlayer(const PlayerTypes player_type ,
+                                         Socket *socket) : IPlayer(player_type) , m_socket(socket) {
 }
 
-Point RemoteNetworkPlayer::get_move(const IRules& rules, const Board& board) {
-	std::cout << "Waiting for other player's move...";
-    unsigned char buf[256];
-    int p[2];
-    m_socket->connectToServer("127.0.0.1",6666 );
-    int n = read(m_socket->getM_socket() , p , sizeof(buf));
+Point RemoteNetworkPlayer::get_move(const IRules &rules , const Board &board) {
+    std::cout << "Waiting for other player's move ..." << std::endl;
+    char buf[8];
+    //  Read point via socket
+    int x , y;
+    int n = read(m_socket->getM_socket() , buf , sizeof(buf));
     if (n == -1) {
         std::cout << "Error" << std::endl;
     }
-
-	// TODO: Read point via socket
-    return Point(p[0], p[1]);
-	/*Point *point;
-    point = (Point*) buf ;
-	return *point;*/
+    sscanf(buf , "%d,%d" , &x , &y);
+    return Point(x , y);
 }
