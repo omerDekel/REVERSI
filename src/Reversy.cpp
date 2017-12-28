@@ -3,6 +3,7 @@
 #include <unistd.h>
 #include <fstream>
 #include <stdlib.h>
+#include <string.h>
 #include <cstring>
 #include "Game.h"
 #include "ConsolePlayer.h"
@@ -11,10 +12,12 @@
 #include "BasicRules.h"
 #include "LocalNetworkPlayer.h"
 #include "RemoteNetworkPlayer.h"
-
+using namespace std;
 int main() {
+    string string1;
     //1 for choosing against computer, 2 for human ,3 remote player.
     int choose;
+    int n;
     Board board(8);
     int port;
     char ip[20];
@@ -33,15 +36,48 @@ int main() {
         player_2 = new ConsolePlayer(PLAYER_TYPE_O , "Player O");
     } else if (choose == 3) {
         std::ifstream inFile;
-        inFile.open("settings1");
+        inFile.open("/home/omer/CLionProjects/REVERSY_WITH_TESTS_NEW/src/settings1");
         inFile >> port;
         inFile >> ip;
         socket1 = new Socket();
         socket1->connectToServer(ip , port);
-        int n = read(socket1->getM_socket() , playerNum , sizeof(playerNum));
+        char c;
+        char c2[1];
+        string choice;
+        string s;
+        do {
+//    if (i == 0) {
+            //cin.clear();
+            //cin.ignore();
+            //cin.clear();
+            //cin >> c;
+
+//    }
+            cin >> c;
+            getline(cin , choice);
+
+             s = c + choice;
+            cout << s << endl;
+            // const char * s = choice.c_str();
+            char buf[50];
+            char buf2[50];
+            strcpy(buf , s.c_str());
+            // cin >> buf;
+            n = write(socket1->getM_socket() , buf , sizeof(buf));
+            if (n == -1) {
+                throw "Error on write";
+            }
+            n = read(socket1->getM_socket(), buf2, sizeof(buf2));
+            if (n == -1) {
+                throw "Error on read";
+            }
+            cout<<buf << endl;
+        } while (strcmp(s.c_str(),"list_games") == 0);
+        n = read(socket1->getM_socket() , playerNum , sizeof(playerNum));
         if (n == -1) {
-            throw "Error on accept";
+            throw "Error on read";
         }
+
         std::cout << "You're player #" << playerNum << std::endl;
             if (strcmp(playerNum,"1") == 0) {
                 player_1 = new LocalNetworkPlayer(PLAYER_TYPE_X , "Player X" , socket1);
