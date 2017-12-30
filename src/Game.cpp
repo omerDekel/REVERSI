@@ -1,4 +1,5 @@
 #include <algorithm>
+#include <iostream>
 #include "Game.h"
 
 Game::Game(IPlayer *player_1 , IPlayer *player_2 , Board *board , const IDisplayer *displayer , const IRules *rules) :
@@ -32,7 +33,14 @@ void Game::run() {
         Point point;
 
         do {
-            point = current_player->get_move(*m_rules , *m_board);
+            try {
+                point = current_player->get_move(*m_rules , *m_board);
+            }
+            catch (const char *msg) {
+                std::cout << "Cannot get move. Reason: " << msg << std::endl;
+                exit(-1);
+            }
+
         } while (available_moves.end() == std::find(available_moves.begin() , available_moves.end() , point));
 
         m_rules->make_move(*m_board , point , current_player->get_player_type());

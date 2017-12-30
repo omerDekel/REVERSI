@@ -42,42 +42,48 @@ int main() {
         socket1 = new Socket();
         socket1->connectToServer(ip , port);
         char c;
-        char c2[1];
         string choice;
         string s;
         do {
-//    if (i == 0) {
-            //cin.clear();
-            //cin.ignore();
-            //cin.clear();
-            //cin >> c;
-
-//    }
             cin >> c;
             getline(cin , choice);
 
              s = c + choice;
             cout << s << endl;
-            // const char * s = choice.c_str();
             char buf[50];
             char buf2[50];
             strcpy(buf , s.c_str());
-            // cin >> buf;
             n = write(socket1->getM_socket() , buf , sizeof(buf));
             if (n == -1) {
-                throw "Error on write";
-            }
-            n = read(socket1->getM_socket(), buf2, sizeof(buf2));
-            if (n == -1) {
-                throw "Error on read";
+                cout<< "Error on write"<< endl;
+                return n;
             }
             cout<<buf << endl;
+
+            if ((0 != strncmp(buf, "start", strlen("start"))) &&
+                    0 != strncmp(buf, "join", strlen("join")))
+            {
+                n = read(socket1->getM_socket(), buf2, sizeof(buf2));
+                if (n == -1 || n == 0) {
+                    cout<<"Error on read"<< endl;
+                    return -1;
+                }
+                cout<<buf2 << endl;
+
+            }
         } while (strcmp(s.c_str(),"list_games") == 0);
         n = read(socket1->getM_socket() , playerNum , sizeof(playerNum));
         if (n == -1) {
-            throw "Error on read";
+            cout<< "Error on read"<< endl;
+            return n;
         }
-
+        if (n == 0) {
+            cout<< "server was closed"<< endl;
+            return n;
+        }
+        if (strcmp(playerNum, "-1") == 0) {
+            return -1;
+        }
         std::cout << "You're player #" << playerNum << std::endl;
             if (strcmp(playerNum,"1") == 0) {
                 player_1 = new LocalNetworkPlayer(PLAYER_TYPE_X , "Player X" , socket1);

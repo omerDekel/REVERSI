@@ -18,7 +18,10 @@ Point RemoteNetworkPlayer::get_move(const IRules &rules , const Board &board) {
     int x , y;
     int n = read(m_socket->getM_socket() , buf , sizeof(buf));
     if (n == -1) {
-        std::cout << "Error" << std::endl;
+        throw "Error in read";
+    }
+    if (n == 0) {
+        throw "Server disconnected";
     }
     sscanf(buf , "%d,%d" , &x , &y);
     return Point(x , y);
